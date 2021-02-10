@@ -1,4 +1,4 @@
-class WorksController < ApplicationControler
+class WorksController < ApplicationController
     
     def index
         if params[:q]

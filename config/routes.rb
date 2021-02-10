@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get 'works/new', to: 'works#new'
   post 'works', to: 'works#create'
 
-  root 'works/index'
+  root 'works#index'
 end
